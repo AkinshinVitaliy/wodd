@@ -1,6 +1,7 @@
 import {Injectable} from '@angular/core';
 import * as moment from 'moment';
-import {BehaviorSubject} from "rxjs";
+import {BehaviorSubject, interval} from "rxjs";
+import {map} from "rxjs/operators";
 
 export interface State {
   day: number;
@@ -8,6 +9,7 @@ export interface State {
   item: number;
   position: number;
   nextPosition: number;
+  weekNumber: number;
 }
 
 @Injectable({
@@ -16,9 +18,17 @@ export interface State {
 export class CurrentDayService {
 
   public state = new BehaviorSubject(null);
+  public weekStart = 35;
+  public interval$ = interval(1000 * 60).pipe(
+    map(time => {
+      this.state.next(this.getState());
+      debugger;
+    })
+  );
 
   constructor() {
     this.state.next(this.getState());
+    this.interval$.subscribe();
   }
 
   private getState(): State {
@@ -27,7 +37,8 @@ export class CurrentDayService {
     const nextDay = (day + 1) % 7;
     let position;
     let nextPosition;
-    if ((moment().week() % 2) === 0) {
+    const currWeek = moment().week();
+    if ((currWeek % 2) === 0) {
       if (day === 0) {
         position = 1;
         nextPosition = 0;
@@ -44,6 +55,7 @@ export class CurrentDayService {
         nextPosition = 1;
       }
     }
-    return {day, item, nextDay, position, nextPosition};
+    const weekNumber = currWeek - this.weekStart;
+    return {day, item, nextDay, position, nextPosition, weekNumber};
   }
 }

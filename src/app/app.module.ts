@@ -10,6 +10,7 @@ import { ScheduleTodayComponent } from './components/schedule-today/schedule-tod
 import { ScheduleTomorrowComponent } from './components/schedule-tomorrow/schedule-tomorrow.component';
 import { ToolbarComponent } from './components/toolbar/toolbar.component';
 import { MainComponent } from './components/main/main.component';
+import { WeekInfoComponent } from './components/week-info/week-info.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { MainComponent } from './components/main/main.component';
     ScheduleTodayComponent,
     ScheduleTomorrowComponent,
     ToolbarComponent,
-    MainComponent
+    MainComponent,
+    WeekInfoComponent
   ],
   imports: [
     BrowserModule,

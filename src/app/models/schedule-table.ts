@@ -133,11 +133,11 @@ export const scheduleTable: { [key: number]: Day } = {
         value: {
           0: {
             subjectName: 'Диф. ур-ия (435)',
-            teacherName: 'Задорожный'
+            teacherName: 'Задорожний'
           },
           1: {
-            subjectName: 'Диф. ир-ия (435)',
-            teacherName: 'Задорожный'
+            subjectName: 'Диф. ур-ия (435)',
+            teacherName: 'Задорожний'
           }
         }
       },
