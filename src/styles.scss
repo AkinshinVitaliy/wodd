@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~roboto-fontface/css/roboto/roboto-fontface.css';
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  font-size: 18px;
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 16px;
+  }
+}

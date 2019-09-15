@@ -1,0 +1,6 @@
+<div class="container">
+  <app-schedule-day *ngIf="state"
+                    [position]="state.nextPosition"
+                    [day]="scheduleTable[state.nextDay]"
+  ></app-schedule-day>
+</div>

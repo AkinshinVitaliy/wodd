@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="day-name">{{day.name}}</div>
+  <div>
+    <div *ngFor="let key of itemOrders">
+        <app-schedule-item
+          [position]="position"
+          [item]="day.items[key]"
+          [time]="timeOrder[key]">
+        </app-schedule-item>
+    </div>
+  </div>
+</div>

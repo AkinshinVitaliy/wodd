@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="day-container" *ngFor="let key of itemOrders">
+    <ng-container *ngIf="scheduleTable[key] != null">
+      <app-schedule-day
+        [position]="position"
+        [day]="scheduleTable[key]">
+      </app-schedule-day>
+    </ng-container>
+    <ng-container *ngIf="scheduleTable[key] == null">
+      empty
+    </ng-container>
+  </div>
+</div>
