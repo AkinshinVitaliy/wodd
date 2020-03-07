@@ -7,68 +7,68 @@ export const scheduleTable: { [key: number]: Day } = {
       0: {
         value: {
           0: {
-            subjectName: 'ТВ (124)',
-            teacherName: 'Голованов'
+            subjectName: 'МС (12)',
+            teacherName: 'Ляликова'
           },
           1: {
-            subjectName: 'ТВ (124)',
-            teacherName: 'Голованов'
+            subjectName: '',
+            teacherName: ''
           }
         }
       },
       1: {
         value: {
           0: {
-            subjectName: 'Матан (430)',
-            teacherName: 'Виноградова'
+            subjectName: 'Экономика (430)',
+            teacherName: 'Дайнеко'
           },
           1: {
-            subjectName: 'Матан (430)',
-            teacherName: 'Виноградова'
+            subjectName: 'КМ (433)',
+            teacherName: 'Корольков'
           }
         }
       },
       2: {
         value: {
           0: {
-            subjectName: 'Диф. ур-ия (410П)',
-            teacherName: 'Кабанцова'
+            subjectName: '',
+            teacherName: ''
           },
           1: {
-            subjectName: 'Диф. ур-ия (410П)',
-            teacherName: 'Кабанцова'
+            subjectName: 'КМ (10)',
+            teacherName: 'Корольков'
           }
         }
       },
       3: {
         value: {
           0: {
-            subjectName: '',
-            teacherName: ''
+            subjectName: 'Функан (227)',
+            teacherName: 'Смагина'
           },
           1: {
-            subjectName: '',
-            teacherName: ''
+            subjectName: 'Функан (227)',
+            teacherName: 'Смагина'
           }
         }
       },
       4: {
         value: {
           0: {
-            subjectName: 'ЯМП (10)',
-            teacherName: 'Астахова'
+            subjectName: 'Функан (227)',
+            teacherName: 'Смагина'
           },
           1: {
-            subjectName: 'ЯМП (10)',
-            teacherName: 'Астахова'
+            subjectName: 'Функан (227)',
+            teacherName: 'Смагина'
           }
         }
       },
       5: {
         value: {
           0: {
-            subjectName: '',
-            teacherName: ''
+            subjectName: 'Компл. анализ (430)',
+            teacherName: 'Засорин'
           },
           1: {
             subjectName: '',
@@ -96,36 +96,36 @@ export const scheduleTable: { [key: number]: Day } = {
       1: {
         value: {
           0: {
-            subjectName: 'ЯМП (319)',
-            teacherName: 'Горбенко'
+            subjectName: 'ЯМП (11)',
+            teacherName: 'Тютин'
           },
           1: {
-            subjectName: 'ЯМП (319)',
-            teacherName: 'Горбенко'
+            subjectName: 'ЯМП (11)',
+            teacherName: 'Тютин'
           }
         }
       },
       2: {
         value: {
           0: {
-            subjectName: 'Матан (320)',
-            teacherName: 'Украинский'
+            subjectName: 'ЯМП (433)',
+            teacherName: 'Тютин'
           },
           1: {
-            subjectName: 'Матан (320)',
-            teacherName: 'Украинский'
+            subjectName: 'ЯМП (433)',
+            teacherName: 'Тютин'
           }
         }
       },
       3: {
         value: {
           0: {
-            subjectName: '',
-            teacherName: ''
+            subjectName: 'Компл. анализ (320)',
+            teacherName: 'Санина'
           },
           1: {
-            subjectName: '',
-            teacherName: ''
+            subjectName: 'Компл. анализ (320)',
+            teacherName: 'Санина'
           }
         }
       },
@@ -144,12 +144,12 @@ export const scheduleTable: { [key: number]: Day } = {
       5: {
         value: {
           0: {
-            subjectName: '',
-            teacherName: ''
+            subjectName: 'Диф. ур-ия (504П)',
+            teacherName: 'Кабанцова'
           },
           1: {
-            subjectName: '',
-            teacherName: ''
+            subjectName: 'Диф. ур-ия (504П)',
+            teacherName: 'Кабанцова'
           }
         }
       }
@@ -161,11 +161,11 @@ export const scheduleTable: { [key: number]: Day } = {
       0: {
         value: {
           0: {
-            subjectName: '',
+            subjectName: 'Военная подготовка',
             teacherName: ''
           },
           1: {
-            subjectName: '',
+            subjectName: 'Военная подготовка',
             teacherName: ''
           }
         }
@@ -173,35 +173,35 @@ export const scheduleTable: { [key: number]: Day } = {
       1: {
         value: {
           0: {
-            subjectName: 'ООП (409П)',
-            teacherName: 'Чернышов'
+            subjectName: 'Военная подготовка',
+            teacherName: ''
           },
           1: {
-            subjectName: 'ООП (430)',
-            teacherName: 'Чернышов'
+            subjectName: 'Военная подготовка',
+            teacherName: ''
           }
         }
       },
       2: {
         value: {
           0: {
-            subjectName: 'Матан (329)',
-            teacherName: 'Украинский'
+            subjectName: 'Военная подготовка',
+            teacherName: ''
           },
           1: {
-            subjectName: 'Матан (329)',
-            teacherName: 'Украинский'
+            subjectName: 'Военная подготовка',
+            teacherName: ''
           }
         }
       },
       3: {
         value: {
           0: {
-            subjectName: '',
+            subjectName: 'Военная подготовка',
             teacherName: ''
           },
           1: {
-            subjectName: '',
+            subjectName: 'Военная подготовка',
             teacherName: ''
           }
         }
@@ -209,12 +209,12 @@ export const scheduleTable: { [key: number]: Day } = {
       4: {
         value: {
           0: {
-            subjectName: 'Англ. яз',
-            teacherName: 'Воронина'
+            subjectName: 'Военная подготовка',
+            teacherName: ''
           },
           1: {
-            subjectName: 'Англ. яз',
-            teacherName: 'Воронина'
+            subjectName: 'Военная подготовка',
+            teacherName: ''
           }
         }
       },
@@ -250,8 +250,8 @@ export const scheduleTable: { [key: number]: Day } = {
       1: {
         value: {
           0: {
-            subjectName: 'ООП (9)',
-            teacherName: 'Тютин'
+            subjectName: '',
+            teacherName: ''
           },
           1: {
             subjectName: '',
@@ -262,24 +262,24 @@ export const scheduleTable: { [key: number]: Day } = {
       2: {
         value: {
           0: {
-            subjectName: 'Матан (430)',
-            teacherName: 'Виноградова'
+            subjectName: 'ЯМП (410П)',
+            teacherName: 'Горбенко'
           },
           1: {
-            subjectName: 'Матан (430)',
-            teacherName: 'Виноградова'
+            subjectName: 'ЯМП (410П)',
+            teacherName: 'Горбенко'
           }
         }
       },
       3: {
         value: {
           0: {
-            subjectName: 'ЯМП (320)',
-            teacherName: 'Ускова'
+            subjectName: 'Англ. яз. (231)',
+            teacherName: 'Воронина'
           },
           1: {
-            subjectName: 'КМ (10)',
-            teacherName: 'Корольков'
+            subjectName: 'Англ. яз. (231)',
+            teacherName: 'Воронина'
           }
         }
       },
@@ -290,8 +290,8 @@ export const scheduleTable: { [key: number]: Day } = {
             teacherName: ''
           },
           1: {
-            subjectName: '',
-            teacherName: ''
+            subjectName: 'МС (410П)',
+            teacherName: 'Голованов'
           }
         }
       },
@@ -327,20 +327,8 @@ export const scheduleTable: { [key: number]: Day } = {
       1: {
         value: {
           0: {
-            subjectName: 'Правоведение (435)',
-            teacherName: 'Астафьев'
-          },
-          1: {
-            subjectName: 'Правоведение (435)',
-            teacherName: 'Астафьев'
-          }
-        }
-      },
-      2: {
-        value: {
-          0: {
-            subjectName: 'Функан (436)',
-            teacherName: 'Смагина'
+            subjectName: '',
+            teacherName: ''
           },
           1: {
             subjectName: '',
@@ -348,14 +336,26 @@ export const scheduleTable: { [key: number]: Day } = {
           }
         }
       },
+      2: {
+        value: {
+          0: {
+            subjectName: 'Экономика (504П)',
+            teacherName: 'Вандышева'
+          },
+          1: {
+            subjectName: 'Экономика (504П)',
+            teacherName: 'Вандышева'
+          }
+        }
+      },
       3: {
         value: {
           0: {
-            subjectName: 'Функан (321)',
-            teacherName: 'Смагина'
+            subjectName: 'Физкультура',
+            teacherName: ''
           },
           1: {
-            subjectName: '',
+            subjectName: 'Физкультура',
             teacherName: ''
           }
         }
@@ -363,11 +363,11 @@ export const scheduleTable: { [key: number]: Day } = {
       4: {
         value: {
           0: {
-            subjectName: 'Физкультура',
+            subjectName: '',
             teacherName: ''
           },
           1: {
-            subjectName: 'Физкультура',
+            subjectName: '',
             teacherName: ''
           }
         }
@@ -375,12 +375,12 @@ export const scheduleTable: { [key: number]: Day } = {
       5: {
         value: {
           0: {
-            subjectName: '',
-            teacherName: ''
+            subjectName: 'ФОП ЭВМ (433)',
+            teacherName: 'Яковлев'
           },
           1: {
-            subjectName: '',
-            teacherName: ''
+            subjectName: 'ФОП ЭВМ (433)',
+            teacherName: 'Яковлев'
           }
         }
       }
@@ -404,11 +404,11 @@ export const scheduleTable: { [key: number]: Day } = {
       1: {
         value: {
           0: {
-            subjectName: 'ТВ (435)',
+            subjectName: 'МС (430)',
             teacherName: 'Дылевский'
           },
           1: {
-            subjectName: 'ТВ (435)',
+            subjectName: 'МС (430)',
             teacherName: 'Дылевский'
           }
         }
@@ -428,8 +428,8 @@ export const scheduleTable: { [key: number]: Day } = {
       3: {
         value: {
           0: {
-            subjectName: 'Правоведение (409П)',
-            teacherName: 'Сыщиков'
+            subjectName: '',
+            teacherName: ''
           },
           1: {
             subjectName: '',

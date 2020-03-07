@@ -18,11 +18,10 @@ export interface State {
 export class CurrentDayService {
 
   public state = new BehaviorSubject(null);
-  public weekStart = 35;
+  public weekStart = 7;
   public interval$ = interval(1000 * 60).pipe(
     map(time => {
       this.state.next(this.getState());
-      debugger;
     })
   );
 
